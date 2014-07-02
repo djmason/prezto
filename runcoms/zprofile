@@ -75,8 +75,3 @@ TMPPREFIX="${TMPDIR%/}/zsh"
 if [[ ! -d "$TMPPREFIX" ]]; then
   mkdir -p "$TMPPREFIX"
 fi
-
-#
-# GitHub access token for HomeBrew
-#
-export HOMEBREW_GITHUB_API_TOKEN="a682f588ccfd7b784ba150a49c7b8fd0b273d6ff"
