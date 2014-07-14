@@ -16,8 +16,3 @@ fi
 if [[ "$COLORTERM" =~ "(gnome|xfce4)-terminal" ]]; then
     export TERM="xterm-256color"
 fi
-
-# If the terminal support 256 colours, then redefine the colorspace for base16 theme
-if [[ "$(tput colors)" -eq 256 ]]; then
-    source "$HOME/src/base16-builder/output/shell/base16-default.dark.sh"
-fi
