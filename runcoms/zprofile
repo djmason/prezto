@@ -75,3 +75,7 @@ TMPPREFIX="${TMPDIR%/}/zsh"
 if [[ ! -d "$TMPPREFIX" ]]; then
   mkdir -p "$TMPPREFIX"
 fi
+
+# Maven
+export ATLAS_MVN=$(which mvn)
+export MAVEN_OPTS="-Xmx1g"
