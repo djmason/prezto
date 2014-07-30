@@ -78,4 +78,4 @@ fi
 
 # Maven
 export ATLAS_MVN=$(which mvn)
-export MAVEN_OPTS="-Xmx1g"
+export MAVEN_OPTS="-Xmx1g -XX:MaxPermSize=512m"
