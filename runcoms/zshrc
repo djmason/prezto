@@ -16,3 +16,8 @@ fi
 if [[ "$COLORTERM" =~ "(gnome|xfce4)-terminal" ]]; then
     export TERM="xterm-256color"
 fi
+
+# If we're not using PuTTY, remap 256 colorspace
+if [[ ! "$TERM" =~ "putty" ]]; then
+    source $HOME/src/base16-builder/output/shell/base16-default.dark.sh
+fi
