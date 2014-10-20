@@ -79,6 +79,3 @@ fi
 # Maven
 export ATLAS_MVN=$(which mvn)
 export MAVEN_OPTS="-Xmx1g -XX:MaxPermSize=512m"
-
-# Use GNU manpages before BSD
-export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:/usr/local/opt/gnu-sed/libexec/gnuman"
