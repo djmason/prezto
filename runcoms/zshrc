@@ -13,7 +13,7 @@ fi
 # Customize to your needs...
 
 # Manually set a 256color TERM variable for terminals which don't set it
-local256="COLORTERM$XTERM_VERSION$ROXTERM_ID$KONSOLE_DBUS_SESSION$VTE_VERSION"
+local256="$COLORTERM$XTERM_VERSION$ROXTERM_ID$KONSOLE_DBUS_SESSION$VTE_VERSION"
 if [[ -n "$local256" ]]; then
     case "$TERM" in
         'xterm') TERM="xterm-256color";;
