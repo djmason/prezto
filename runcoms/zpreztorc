@@ -42,7 +42,9 @@ zstyle ':prezto:load' pmodule \
   'command-not-found' \
   'terminal' \
   'syntax-highlighting' \
-  'prompt'
+  'prompt' \
+  '256term' \
+  'base16'
 
 #
 # Editor
