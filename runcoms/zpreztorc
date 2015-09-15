@@ -168,4 +168,4 @@ zstyle ':prezto:module:terminal:tab-title' format '%m: %s'
 # zstyle ':prezto:module:tmux:iterm' integrate 'yes'
 
 # base16 theme
-zstyle ':prezto:module:base16' theme 'tomorrow'
+zstyle ':prezto:module:base16' theme 'default'
