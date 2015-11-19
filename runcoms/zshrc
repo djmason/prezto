@@ -11,6 +11,3 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
-
-# Because a pacman frontend called "packer" already exists, packer is named packer-io
-alias packer=packer-io
